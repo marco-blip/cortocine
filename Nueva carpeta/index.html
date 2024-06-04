@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="scanner-container">
+        <div class="hand"></div>
+        <div class="scanner"></div>
+        <div class="glow"></div>
+        <div class="touch-effect"></div>
+    </div>
+    <div class="text-container">
+        <div class="scanning-text">ESCANEA PARA INGRESAR<span class="cursor">|</span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
